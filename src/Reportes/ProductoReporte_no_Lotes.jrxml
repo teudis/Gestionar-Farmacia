@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="545f3e33-0227-4a07-9282-078b20b0fe6c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 7_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 8_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 9_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 10_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Semanas" uuid="86ca8c2c-0a3d-449a-8955-8d878f69b217">
+		<parameter name="cod_semana" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+sum (farmac_asic_producto_existencia.cantidad_existencia) as cantidad_existencia,
+farmac_asic_producto_existencia.semana_estadistica
+FROM
+farmac_asic_producto_existencia
+INNER JOIN config_cod_producto ON farmac_asic_producto_existencia.producto_id = config_cod_producto.id
+WHERE
+config_cod_producto.codigo = $P{cod_semana}
+GROUP BY
+farmac_asic_producto_existencia.semana_estadistica
+ORDER BY
+farmac_asic_producto_existencia.semana_estadistica DESC
+LIMIT 4]]>
+		</queryString>
+		<field name="cantidad_existencia" class="java.lang.Object"/>
+		<field name="semana_estadistica" class="java.lang.Object"/>
+	</subDataset>
+	<subDataset name="Grafico" uuid="b01159a4-0fd8-446e-a67b-b65dccb6a72d">
+		<parameter name="cod_grafico" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+sum (farmac_asic_producto_existencia.cantidad_existencia) as existencia,
+farmac_asic_producto_existencia.semana_estadistica as semana
+FROM
+farmac_asic_producto_existencia
+INNER JOIN config_cod_producto ON farmac_asic_producto_existencia.producto_id = config_cod_producto.id
+WHERE
+config_cod_producto.codigo = $P{cod_grafico}
+GROUP BY
+farmac_asic_producto_existencia.semana_estadistica
+ORDER BY
+farmac_asic_producto_existencia.semana_estadistica ASC
+LIMIT 4]]>
+		</queryString>
+		<field name="existencia" class="java.lang.Object"/>
+		<field name="semana" class="java.lang.Object"/>
+	</subDataset>
+	<subDataset name="lotes" uuid="a627e7a0-5c94-4627-87bb-7b6167ab503c">
+		<parameter name="cod_lotes" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+config_cod_lote.nombre AS lote,
+config_cod_lote.fecha_vence,
+farmac_asic_producto_existencia.cantidad_existencia,
+config_cod_farmacia.nombre as farmacia
+FROM
+config_cod_lote
+INNER JOIN farmac_asic_producto_existencia ON farmac_asic_producto_existencia.lote_id = config_cod_lote.id
+INNER JOIN config_cod_producto ON config_cod_lote.producto_id = config_cod_producto.id AND farmac_asic_producto_existencia.producto_id = config_cod_producto.id
+INNER JOIN config_cod_farmacia ON farmac_asic_producto_existencia.farmacia_id = config_cod_farmacia.id
+WHERE
+config_cod_producto.codigo = $P{cod_lotes} AND
+farmac_asic_producto_existencia.semana_estadistica = 17 AND farmac_asic_producto_existencia.cantidad_existencia > 0
+ORDER BY
+config_cod_lote.fecha_vence DESC]]>
+		</queryString>
+		<field name="lote" class="java.lang.Object"/>
+		<field name="fecha_vence" class="java.lang.Object"/>
+		<field name="cantidad_existencia" class="java.lang.Object"/>
+		<field name="farmacia" class="java.lang.Object"/>
+	</subDataset>
+	<subDataset name="Servicios" uuid="fb31141f-4514-4725-8955-8177d03c657e">
+		<parameter name="cod_servicio" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[SELECT
+config_cod_tipo_centro.sigla centro,
+config_cod_servicio.nombre AS servicios,
+farmac_asic_producto_existencia.cantidad_existencia as cantidad
+FROM
+config_cod_servicio ,
+config_cod_tipo_centro
+INNER JOIN config_tipo_centro_servicio ON config_tipo_centro_servicio.tipo_centro_id = config_cod_tipo_centro.id AND config_tipo_centro_servicio.servicio_id = config_cod_servicio.id ,
+config_cod_producto
+INNER JOIN config_producto_servicio ON config_producto_servicio.servicio_id = config_cod_servicio.id AND config_producto_servicio.producto_id = config_cod_producto.id
+LEFT JOIN farmac_asic_producto_existencia ON farmac_asic_producto_existencia.servicio_id = config_cod_servicio.id AND farmac_asic_producto_existencia.producto_id = config_cod_producto.id AND farmac_asic_producto_existencia.tipo_centro_id = config_cod_tipo_centro.id
+WHERE
+config_cod_producto.codigo = $P{cod_servicio}  AND
+farmac_asic_producto_existencia.semana_estadistica = 17 AND
+farmac_asic_producto_existencia.servicio_id > 0]]>
+		</queryString>
+		<field name="centro" class="java.lang.Object"/>
+		<field name="servicios" class="java.lang.Object"/>
+		<field name="cantidad" class="java.lang.Object"/>
+	</subDataset>
+	<parameter name="cod_producto" class="java.lang.String">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+	</parameter>
+	<parameter name="oficial" class="java.lang.String"/>
+	<parameter name="tratamiento" class="java.lang.String"/>
+	<parameter name="cantidad_total" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT DISTINCT
+upper(config_cod_producto.descripcion) as descripcion,
+config_cod_asic.nombre AS asic,
+config_cod_farmacia.nombre AS farmacia,
+config_cod_producto.codigo,
+upper(config_cod_unidad_medida.nombre) AS medida,
+farmac_asic_producto_existencia.semana_estadistica,
+config_cod_provincia.nombre as estado
+FROM
+farmac_asic_producto_existencia
+INNER JOIN config_cod_asic ON farmac_asic_producto_existencia.asic_id = config_cod_asic.id
+INNER JOIN config_cod_farmacia ON config_cod_farmacia.asic_id = config_cod_asic.id AND farmac_asic_producto_existencia.farmacia_id = config_cod_farmacia.id
+INNER JOIN config_cod_producto ON farmac_asic_producto_existencia.producto_id = config_cod_producto.id
+INNER JOIN config_cod_unidad_medida ON config_cod_producto.unidad_medida_id = config_cod_unidad_medida.id AND config_cod_producto.unidad_medida_almacen_id = config_cod_unidad_medida.id
+INNER JOIN config_cod_provincia ON config_cod_asic.provincia_id = config_cod_provincia.id AND config_cod_farmacia.provincia_id = config_cod_provincia.id
+WHERE
+config_cod_producto.codigo = $P{cod_producto}
+GROUP BY
+farmac_asic_producto_existencia.semana_estadistica
+ORDER BY
+farmac_asic_producto_existencia.semana_estadistica DESC]]>
+	</queryString>
+	<field name="descripcion" class="java.lang.Object"/>
+	<field name="asic" class="java.lang.Object"/>
+	<field name="farmacia" class="java.lang.Object"/>
+	<field name="codigo" class="java.lang.Object"/>
+	<field name="medida" class="java.lang.Object"/>
+	<field name="semana_estadistica" class="java.lang.Object"/>
+	<field name="estado" class="java.lang.Object"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="123" y="9" width="393" height="23" uuid="a85c0c21-5a01-41ed-8529-d586f83b76a1"/>
+				<textElement>
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sistema para Cooperación Médica en el Exterior]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="226" y="43" width="128" height="20" uuid="bf61949a-5175-40a8-9759-68574c8ec7de"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ficha de producto]]></text>
+			</staticText>
+			<textField pattern="d/M/yyyy">
+				<reportElement x="104" y="43" width="100" height="20" uuid="bfc22b68-58dc-4bcc-badc-7abac7cfdb0e"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="9" y="11" width="54" height="20" uuid="940ee73c-e867-42a4-a5e1-0041ddba84f3"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Código: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="31" width="54" height="20" uuid="27a30bee-8871-4c65-9eb4-f3cdfe901d8b"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nombre:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="51" width="54" height="20" uuid="fe6d35c8-0b58-4dc8-b0fe-7c2ca9562328"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Oficial:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="62" y="11" width="100" height="20" uuid="cbc5fca2-7ffe-4d9e-a047-5a54f412d99a"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="64" y="33" width="306" height="20" uuid="1cbe683f-d7aa-4721-8c26-176a23b9b9d2"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="391" y="8" width="90" height="20" uuid="6437f3c3-9fdd-47a6-9ad8-69f3d8e2b5e6"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Unidad medida:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="478" y="8" width="74" height="20" uuid="7781b2fd-d1d4-486e-b7e3-b15837d8bb27"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{medida}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="391" y="37" width="100" height="20" uuid="ed9be32b-eff8-4ac5-8e83-1d8a296233b3"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tratamiento lote:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="63" y="51" width="100" height="20" uuid="3a61b67a-bc8d-49f3-a2a7-7746e28d239f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{oficial}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="492" y="37" width="50" height="20" uuid="156d513b-192a-43e0-9e00-60522d1e7711"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{tratamiento}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="399" splitType="Stretch">
+			<componentElement>
+				<reportElement key="table 1" style="table 1" x="295" y="8" width="232" height="106" uuid="78938664-6346-4938-89a2-96a989f91ba3"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Semanas" uuid="b2633dc8-3aaf-497b-a936-23a4395335b9">
+						<datasetParameter name="cod_semana">
+							<datasetParameterExpression><![CDATA[$P{cod_producto}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="1e8f3454-8bba-4c95-a891-850ce06f52f6">
+						<jr:columnHeader style="table 1_CH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="20" uuid="08989c46-ae92-46ff-be88-1ba45cb5c8b5"/>
+								<textElement>
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Periodo]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 1_CH" height="23" rowSpan="1"/>
+						<jr:detailCell style="table 1_TD" height="24" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="3dca84d3-6164-4d27-9e01-36057ae787d2"/>
+								<textFieldExpression><![CDATA[""+$F{semana_estadistica}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4f7e7f34-aaf0-4865-a7bd-31daff8d01a7">
+						<jr:columnHeader style="table 1_CH" height="20" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="20" uuid="66641d34-d4cb-457b-9fcf-c70a5aa475b6"/>
+								<textElement>
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Existencia]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 1_CH" height="23" rowSpan="1"/>
+						<jr:detailCell style="table 1_TD" height="24" rowSpan="1">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="20" uuid="e316d32b-f246-4f00-b553-9ea50d473dd3"/>
+								<textFieldExpression><![CDATA[""+$F{cantidad_existencia}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<lineChart>
+				<chart>
+					<reportElement x="37" y="17" width="200" height="106" uuid="59414e07-9d4f-4dac-bc92-b582f771f937"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<dataset>
+						<datasetRun subDataset="Grafico" uuid="498fcf0e-b238-4d1a-bdf1-6b26718f41cb">
+							<datasetParameter name="cod_grafico">
+								<datasetParameterExpression><![CDATA[$P{cod_producto}]]></datasetParameterExpression>
+							</datasetParameter>
+						</datasetRun>
+					</dataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["Existencia x Semanas "]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{semana}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{existencia}]]></valueExpression>
+					</categorySeries>
+				</categoryDataset>
+				<linePlot>
+					<plot/>
+					<categoryAxisFormat>
+						<axisFormat/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</linePlot>
+			</lineChart>
+			<staticText>
+				<reportElement x="203" y="169" width="150" height="18" uuid="e79759b0-7c28-4e51-bc52-908c31cbe33a"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Existencia en Farmacia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="201" y="245" width="150" height="20" uuid="cf77a215-9bd8-4468-87f6-8b397d3a720e"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Existencia en Servicios]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement key="table 10" style="table 10" x="57" y="265" width="448" height="110" uuid="454961ed-ef13-4d10-9ac1-7378adfb2e6a"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Servicios" uuid="138b4b7f-7b0e-4ddc-bc35-c922972e913a">
+						<datasetParameter name="cod_servicio">
+							<datasetParameterExpression><![CDATA[$P{cod_producto}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="e6a7a0a2-2109-4a8c-845f-568efb5f66c1">
+						<jr:columnHeader style="table 10_CH" height="23" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="23" uuid="e2667477-64d9-4168-9a6e-29cb6d7f900d"/>
+								<textElement>
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Tipo Centro]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 10_CH" height="26" rowSpan="1"/>
+						<jr:detailCell style="table 10_TD" height="20" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="20" uuid="8b6d55b9-4ac6-4751-b96e-7b52365ef004"/>
+								<textFieldExpression><![CDATA[""+$F{centro}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="243" uuid="e7a15842-f7de-4223-9152-0445a20f7e4f">
+						<jr:columnHeader style="table 10_CH" height="23" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="223" height="23" uuid="9bdaeac9-b530-4285-8e09-f108ce754ecc"/>
+								<textElement textAlignment="Justified">
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Servicio]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 10_CH" height="26" rowSpan="1"/>
+						<jr:detailCell style="table 10_TD" height="20" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="223" height="20" uuid="d9187f6e-5b27-471e-8130-99de5740ff16"/>
+								<textFieldExpression><![CDATA[""+$F{servicios}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="77" uuid="57a4373b-7fe9-4290-9468-44e9fc543f77">
+						<jr:columnHeader style="table 10_CH" height="23" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="77" height="23" uuid="e333e521-4c8d-45fc-bab3-1b1bf6a4bb14"/>
+								<textElement>
+									<font size="11" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Existencia]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="table 10_CH" height="26" rowSpan="1"/>
+						<jr:detailCell style="table 10_TD" height="20" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="77" height="20" uuid="4dc08d4d-0659-459f-adb6-e71cd365f3b8"/>
+								<textFieldExpression><![CDATA[""+$F{cantidad}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+			<staticText>
+				<reportElement x="67" y="203" width="136" height="20" uuid="2394e20e-66ee-49dc-be44-975793fa030e"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cantidad en existencia:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="205" y="205" width="130" height="20" uuid="4244b74b-3e85-486f-a668-3474b78d467c"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cantidad_total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="15" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="11" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="8" splitType="Stretch"/>
+	</summary>
+</jasperReport>
